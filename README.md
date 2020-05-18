@@ -1,3 +1,3 @@
-# c-programming-hackerrank
+# Programming-Hackerrank
 
-Started a C Programming in Hackerrank 
+Started Programming in Hackerrank 
