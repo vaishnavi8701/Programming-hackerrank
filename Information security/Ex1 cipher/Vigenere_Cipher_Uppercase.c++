@@ -40,16 +40,12 @@ string decrypt(string str,string key){
 }
 
 int main(){
-    string key;
-    string str;
-    cout<<"Enter key :";
+    string key,str;
+    cout<<"Enter key string in caps :";
     cin>>key;
-    cout<<"Enter String :";
+    cout<<"Enter plain string in caps :";
     cin>>str;
     key=keyexpand(str,key);
     str=encrypt(str,key);
     decrypt(str,key);
 }
-
-
-
